@@ -1,0 +1,38 @@
+
+
+h1 {
+  text-align: center;
+}
+
+.pagebar { 
+    width: 150px;
+    background-color: #ADEFD6;
+}
+
+.pagebar a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+    color: #667B73;
+    font-size: 25px;
+}
+
+.pagebar a:hover {
+  background-color: #95CEB9;
+}
+
+.active {
+  background-color: #739B8D;
+}
+
+ .header {
+     padding: 60px;
+  text-align: center;
+  background: #88B6A6;
+  color: white;
+  font-size: 30px;
+ }
+ .header h2 { 
+     color: #D1DCD8
+ }
