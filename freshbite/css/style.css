@@ -4,12 +4,13 @@ h1 {
   text-align: center;
 }
 
-.pagebar { 
+.header a { 
     width: 150px;
-    background-color: #ADEFD6;
+    background-color: #88B6A6;
+    float: left;
 }
 
-.pagebar a {
+.header {
     display: block;
     text-align: center;
     padding: 20px;
@@ -18,7 +19,7 @@ h1 {
     font-size: 25px;
 }
 
-.pagebar a:hover {
+.header a:hover {
   background-color: #95CEB9;
 }
 
@@ -27,7 +28,7 @@ h1 {
 }
 
  .header {
-     padding: 60px;
+    padding: 100px;
   text-align: center;
   background: #88B6A6;
   color: white;
@@ -36,3 +37,27 @@ h1 {
  .header h2 { 
      color: #D1DCD8
  }
+ .homepageparagraph {
+  text-align: center;
+  font-size: 35px;
+ }
+ a {
+   text-decoration: none;
+}
+.homepageparagraph img { 
+   width: 474px;
+   border-radius: 8px;
+   height: 712px;
+   float: left;
+}
+.testomonials h3 {
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center
+}
+.testomonials h4 {
+    padding-top: 50px;
+    text-align: center;
+    color: #414745;
+    font-size: 25px;
+}
