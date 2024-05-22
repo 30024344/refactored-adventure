@@ -109,45 +109,28 @@ header img {
   padding: 20px;
 }
 
-.buffet h3 {
-    padding-top: 50px;
-    font-size: 40px;
-    text-align: left;
-}
+
 .servicess h4 {
     font-size: 50px;
-    text-align: center;
+    text-align: center;}
+    
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-.buffet img {
- height: 427px;
- width: 640px;
- border-radius: 10px;
- float: left;
- padding-bottom: 20px;
+.column {
+  width: 100%;
+  padding: 5px;
 }
-.preset img {
- height: 427px;
- width: 640px;
- border-radius: 10px;
- float: right;
+@media screen and (min-width: 800px) {
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+      
+  }
 }
-.preset h3 {
-    padding-top: 50px;
-    font-size: 40px;
-    text-align: right;
-}
-
-.fingerfood h3 {
-    padding-top: 50px;
-    font-size: 40px;
-    text-align: left;
-}
-.fingerfood img {
- height: 427px;
- width: 640px;
- border-radius: 10px;
- float: left;
-}
-.fingerfood {
-
+.row img {
+  width: 100%;
 }
