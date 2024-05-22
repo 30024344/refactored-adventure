@@ -4,13 +4,13 @@ h1 {
   text-align: center;
 }
 
-.header a { 
+header a { 
     width: 150px;
     background-color: #88B6A6;
     float: left;
 }
 
-.header {
+header {
     display: block;
     text-align: center;
     padding: 20px;
@@ -19,7 +19,7 @@ h1 {
     font-size: 25px;
 }
 
-.header a:hover {
+header a:hover {
   background-color: #95CEB9;
 }
 
@@ -27,14 +27,14 @@ h1 {
   background-color: #739B8D;
 }
 
- .header {
+ header {
     padding: 100px;
   text-align: center;
   background: #88B6A6;
   color: white;
   font-size: 30px;
  }
- .header h2 { 
+ header h1 { 
      color: #D1DCD8
  }
  .homepageparagraph {
@@ -61,8 +61,8 @@ h1 {
     color: #414745;
     font-size: 25px;
 }
-.header img {
-    width: 1150px;
+header img {
+    width: 1125px;
     height: 300px;
 }
 .contactform input[type=text] {
